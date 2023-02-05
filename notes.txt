@@ -1,0 +1,38 @@
+String str="hello world"
+
+vowel -> a e i o u
+
+
+to declare any array we use following syntax:
+
+datatype[] arrayName= new dataType[size];
+
+example:
+
+int[] numbers= new int[5];
+
+numbers[0]=13
+numbers[1]=143
+-
+-
+-
+numbers[4];
+
+
+to find the length of the array we use arrayName.length
+numbers.length (it will give 5)
+
+initialize the array:
+=====================
+
+char[] data= new char[10];
+data[0]='c';
+
+char[] data ={'a','b','c'};
+
+int[] numbers={1,2,3,4,5,6 }; ---> sum of numbers in the array. 21
+
+int[] numbers={11,2,31,14,156,68 }; find the max value in array
+
+
+
