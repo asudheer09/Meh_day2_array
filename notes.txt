@@ -35,4 +35,65 @@ int[] numbers={1,2,3,4,5,6 }; ---> sum of numbers in the array. 21
 int[] numbers={11,2,31,14,156,68 }; find the max value in array
 
 
+Types varaibles in java: 3
+==========================
+1. local
+2. instance
+3. static
+
+1 local varaiable:
+--> If we declare a varaible inside a method or constructor or a block then that varaibale is said to be local.
+--> the scope of the local varaible is with in the method or constructor or block (scope- life= means we cant access outside of method or block or constructor)
+--> we should intialize the local varaible otherwise we will get compile time error.
+--> for local varaibles jvm will not provide default values.
+
+2. instance variable:
+---> if we declare a variable inside a class without static modifier then we can say it is a instance varaible.
+---> for every object a seperate copy of instance variables will be created.
+---> the scope of instance varaible is object.( when object is created instance variables will be created and when object is destroyed instance varaibles also destroyed.)
+--> for instance varaibles jvm provide default values.
+--> to access instance variables we need to create object.
+
+class Student{
+
+	int rollNo;
+	String name;
+
+	Student(int no,String sname){
+	rollNo=no;
+	name=sname;
+	}
+}
+
+
+Student s1= new Student(10,"meh"); rollNo=10, name=meh
+Student s2= new Student(20,"sudheer"); rollNo=20, name=sudheer
+
+Object class is the superclass for every class whether we extend or not.
+whenever we print any object, it internally calls toString() method, if we dont override toString() method then it will call Object class
+toString() method, //return this.getClass().getName() + "@" + Integer.toHexString(this.hashCode());
+
+then it will print className@HexadecimalCode, example : Student@1ddfd456
+
+
+3. static varaible:
+
+--> if we declare a varaible inside a class with static modifier is called static varaible.
+--> for static varaibles only one copy the varaible is created and that copy will be shared by all the object.
+--> for static varaibales also jvm provides default values.
+---> to access the static variable we can use class name or object name.
+---> scope of the static varaible is , will be created at the time of loading the class into the jvm and will be destroyed when jvm is shutodown or unloading of the class from jvm.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
