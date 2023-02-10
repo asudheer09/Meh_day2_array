@@ -117,6 +117,54 @@ package name always should start with com---> commercial
 // com.walmart.retail.tax;
 org---> open source
 
+JDK ---> Java Development Kit
+    ---> used to develop the java applications.
+    ---> used by the java developers.
+
+JRE ---> Java Runtime Environment
+    ---> To run any java application we need JRE
+    ---> any one who want run java applications or java softwares.
+
+what is platform independent?
+
+OS types : windows, Linux, Solaris, MAC etc
+
+when we compile java code, it will give .class file which contains byte code,
+that byte code you can run on any operating system.
+
+when you install JDK, JRE also will be installed as part of JDK.
+when you install JRE , JDK will not be installed.
+
+JVM ---> Java Virtual Machine, which is responsible to run byte code.
+JRE is implementation of JVM.
+
+what is class ?
+
+It is a collection of data and behaviours.
+it is a blueprint to create any no of objects.
+
+how to create a class ?
+
+we use class keyword
+class classname{
+    // varaibles
+    // methods
+    // constructors etc
+}
+
+what is an object?
+
+it is an instance of a class.
+
+it is physical entity and it is exist,
+but class is a logical entity and it doesnt exist physical entity.
+
+example for class : Flower, Student, Employee
+
+example for object : Rose, Mehdiya, Sudheer.
+
+
+
 
 
 
