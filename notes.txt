@@ -48,7 +48,7 @@ Types varaibles in java: 3
 --> for local varaibles jvm will not provide default values.
 
 2. instance variable:
----> if we declare a variable inside a class without static modifier then we can say it is a instance varaible.
+---> if we declare a variable inside a class without static modifier then we can say it is a instance variable.
 ---> for every object a seperate copy of instance variables will be created.
 ---> the scope of instance varaible is object.( when object is created instance variables will be created and when object is destroyed instance varaibles also destroyed.)
 --> for instance varaibles jvm provide default values.
@@ -83,6 +83,39 @@ then it will print className@HexadecimalCode, example : Student@1ddfd456
 --> for static varaibales also jvm provides default values.
 ---> to access the static variable we can use class name or object name.
 ---> scope of the static varaible is , will be created at the time of loading the class into the jvm and will be destroyed when jvm is shutodown or unloading of the class from jvm.
+
+Constructors:
+Constructor is a special method whose task is to initialize the object.
+Object contains data and behaviours. so to initialize the data in the object we use
+Constructors.
+
+Rules to create constructor:
+1. class name and constructor name should be same.
+2. constructor does not have any return type.
+3. In a class we can define any no of constructors ( constructors overloading)
+4. to invoke any constructor we use new operator.
+
+Types of constructors
+1. default constructor
+2. parameterized constructor
+
+When we dont create any constructor in the class , jvm will create a constructor.
+If we create any constructor then jvm will not create any default constructor.
+
+package: it is a collection related classes and interfaces.
+
+Student.java  com.jntu.college
+Student.java  com.vtu.college
+
+Advantage with package is to resolve the conflicts.
+
+to create any package we will use keyword package packagename;
+
+package name always should start with com---> commercial
+
+// com.companyname.projectname.modulename;
+// com.walmart.retail.tax;
+org---> open source
 
 
 
