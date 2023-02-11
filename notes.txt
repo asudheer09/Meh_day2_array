@@ -49,9 +49,9 @@ Types varaibles in java: 3
 
 2. instance variable:
 ---> if we declare a variable inside a class without static modifier then we can say it is a instance variable.
----> for every object a seperate copy of instance variables will be created.
----> the scope of instance varaible is object.( when object is created instance variables will be created and when object is destroyed instance varaibles also destroyed.)
---> for instance varaibles jvm provide default values.
+---> for every object a separate copy of instance variables will be created.
+---> the scope of instance variable is object.( when object is created instance variables will be created and when object is destroyed instance varaibles also destroyed.)
+--> for instance variables jvm provide default values.
 --> to access instance variables we need to create object.
 
 class Student{
@@ -91,16 +91,16 @@ Constructors.
 
 Rules to create constructor:
 1. class name and constructor name should be same.
-2. constructor does not have any return type.
+2. constructor does not have any return type not even void also.
 3. In a class we can define any no of constructors ( constructors overloading)
 4. to invoke any constructor we use new operator.
 
 Types of constructors
-1. default constructor
+1. default constructor or zero argument constructor.
 2. parameterized constructor
 
-When we dont create any constructor in the class , jvm will create a constructor.
-If we create any constructor then jvm will not create any default constructor.
+When we dont create any constructor in the class , jvm will create a default constructor.
+If we create any constructor then jvm will not create default constructor.
 
 package: it is a collection related classes and interfaces.
 
@@ -162,6 +162,49 @@ but class is a logical entity and it doesnt exist physical entity.
 example for class : Flower, Student, Employee
 
 example for object : Rose, Mehdiya, Sudheer.
+
+Inheritance:
+===========
+
+Inheritance is the process of acquiring the properties of another object.
+
+without inheritance:
+====================
+
+class Father{
+ money()
+ land()
+ gold()
+ properties()
+}
+
+class Son{
+money()
+ land()
+ gold()
+ properties()
+ girlFriend()
+
+}
+
+with inheritance:
+=================
+class Father{
+ money()
+ land()
+ gold()
+ properties()
+}
+
+class Son extends Father{
+    girlFriend()
+}
+
+In java how we can achieve inheritance ?
+
+using extends keyword.
+
+
 
 
 
